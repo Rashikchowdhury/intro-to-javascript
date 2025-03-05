@@ -71,4 +71,4 @@ for (const letter of sentence){
     // console.log(letter);
     reverse = letter + reverse;
 }
-console.log(reverse);   
+console.log(reverse);
