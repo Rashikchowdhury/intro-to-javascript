@@ -20,9 +20,9 @@
 // let height = 160;
 // let has_adult = false;
 
-// let age = 11;
-// let height = 135;
-// let has_adult = true;
+let age = 11;
+let height = 135;
+let has_adult = true;
 
 // let age = 14;
 // let height = 155;
@@ -32,9 +32,10 @@
 // let height = 172;
 // let has_adult = false;
 
-let age = 21;
-let height = 175;
-let has_adult = true;
+// let age = 21;
+// let height = 175;
+
+// let has_adult = true;
 
 if (age < 12 && height < 150){
     console.log("Sorry, you're too young");
