@@ -57,5 +57,3 @@ In this example, the switch statement checks the value of day. Since day is 3, t
 // 0-59: "F"
 // Print the letter grade.
 // Handle invalid input (numbers outside the 0-100 range) by printing "Invalid grade".
-
-console.log("Welcome to Coddy! \n" + "Javascript is fun.")
