@@ -25,4 +25,4 @@ const employees = [
             ];
 
 let total = totalSalary(employees);
-console.log("Total salary to provide:", total);
+console.log("Total salary to provide:", total);  
