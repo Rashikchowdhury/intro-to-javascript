@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+
+li{
+    color: blueviolet;
+}
+
+.font-size {
+    font-size: 1.5em;
+}
+
+body {
+    transition: background-color 2s ease;
+}
+body:hover{
+    background-color: red;
+}
