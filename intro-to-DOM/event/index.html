@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Event</title>
+</head>
+<body id="change-body-clr">
+    <h1 id="change-h1-clr">
+        Introduction to js event
+    </h1>
+    <button onclick="console.log('I am clicked');">Click Me</button>  
+    <br><br>  
+    <button onclick="defaultClrs()">Make default</button>
+    <br><br>
+    <button onclick="makeRed()">Make red</button>
+    <br><br>
+
+    <!-- type 2: directly in the onclick attribute inside the html tag -->
+    <button onclick="document.body.style.backgroundColor = 'green'; document.getElementById('h1-clr').style.color = 'white'">Make green</button>
+    <br><br>
+    <button id="blue-btn">Make blue</button>
+    <br><br>
+    <button id="purple-btn">Make purple</button>
+    <br><br>
+    <button id="yellow-btn">Make yellow</button>
+    <script src="./event.js"></script>
+</body>
+</html>

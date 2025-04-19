@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Deletion</title>
+    <style>
+        body {
+            height: 98vh;
+            background-color: #11161d;
+            color: #f0f6fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .parent-div>h4 {
+            padding: 8px;
+        }
+
+        .parent-div {
+            /* width: 22vw; */
+            height: fit-content;
+            background-color: #0d1117;
+            border: 0.5px solid #9198A1;
+            /* padding: 8px; */
+            border-radius: 12px;
+            box-shadow: 0px 0px 5px 0px;
+        }
+
+
+        #middle {
+            border-top: 0.1px solid #9198A1;
+            padding: 8px;
+            text-align: center;
+        }
+
+        #middle-child-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .middle-child {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #input-container {
+            display: flex;
+            flex-direction: column;
+            /* padding: 8px; */
+            gap: 5px;
+        }
+
+        #last {
+            border-top: 0.1px solid #9198A1;
+            padding: 8px;
+        }
+
+        #input-field {
+            background-color: #000000;
+            border: 1px solid red;
+            border-radius: 12px;
+            padding: 10px;
+            color: #f0f6fc;
+        }
+
+        #delete-btn {
+            background-color: #000000;
+            border: 0.1px solid #7a828b;
+            border-radius: 12px;
+            padding: 10px;
+            color: red;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-div">
+        <h4 id="upper-text">Delete Rashikchowdhury/hockey-site</h4>
+        <div id="middle">
+            <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true">
+                <path fill="#9198A1"
+                    d="M2 2.75A2.75 2.75 0 0 1 4.75 0h14.5a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-1.5 0V1.5H4.75c-.69 0-1.25.56-1.25 1.25v12.651A2.987 2.987 0 0 1 5 15h6.25a.75.75 0 0 1 0 1.5H5A1.5 1.5 0 0 0 3.5 18v1.25c0 .69.56 1.25 1.25 1.25h6a.75.75 0 0 1 0 1.5h-6A2.75 2.75 0 0 1 2 19.25V2.75Z">
+                </path>
+                <path fill="#9198A1"
+                    d="M15 14.5a3.5 3.5 0 1 1 7 0V16h.25c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0 1 22.25 24h-7.5A1.75 1.75 0 0 1 13 22.25v-4.5c0-.966.784-1.75 1.75-1.75H15Zm3.5-2a2 2 0 0 0-2 2V16h4v-1.5a2 2 0 0 0-2-2Z">
+                </path>
+            </svg>
+
+            <h2 id="repo-name">Rashikchowdhury/hockey-site</h2>
+
+            <div id="middle-child-container">
+                <div class="middle-child">
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                        data-view-component="true" class="octicon octicon-star color-fg-muted mr-1">
+                        <path fill="#9198A1"
+                            d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z">
+                        </path>
+                    </svg>
+
+                    0 stars
+                </div>
+
+                <div class="middle-child">
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16"
+                        data-view-component="true" class="octicon octicon-eye color-fg-muted ml-2 mr-1">
+                        <path fill="#9198A1"
+                            d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.576.43 8.898a1.62 1.62 0 0 1 0-1.798c.45-.677 1.367-1.931 2.637-3.022C4.33 2.992 6.019 2 8 2ZM1.679 7.932a.12.12 0 0 0 0 .136c.411.622 1.241 1.75 2.366 2.717C5.176 11.758 6.527 12.5 8 12.5c1.473 0 2.825-.742 3.955-1.715 1.124-.967 1.954-2.096 2.366-2.717a.12.12 0 0 0 0-.136c-.412-.621-1.242-1.75-2.366-2.717C10.824 4.242 9.473 3.5 8 3.5c-1.473 0-2.825.742-3.955 1.715-1.124.967-1.954 2.096-2.366 2.717ZM8 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 10Z">
+                        </path>
+                    </svg>
+
+                    1 watcher
+                </div>
+            </div>
+
+        </div>
+
+        <div id="last">
+            <h4 id="last-title">To confirm, type "Rashikchowdhury/hockey-site" in the box below</h4>
+            <div id="input-container">
+                <input id="input-field" type="text">
+                <button id="delete-btn" disabled>Delete this repository</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("input-container").addEventListener('keyup', function (event) {
+            const repoName = document.getElementById("repo-name").innerText;
+            if (event.target.value === repoName) {
+                document.getElementById("delete-btn").removeAttribute("disabled");
+                document.getElementById("delete-btn").style.cursor = "pointer"
+            }
+            else {
+                document.getElementById("delete-btn").setAttribute("disabled", true);
+                document.getElementById("delete-btn").style.cursor = "not-allowed";
+            }
+
+        })
+        document.getElementById("delete-btn").addEventListener('click', function () {
+            document.getElementById("repo-name").innerText = "Repository deleted successfully!";
+            document.getElementById("middle-child-container").style.display = "none";
+            document.getElementById("last").style.display = "none";
+            document.getElementById("upper-text").style.display = "none";
+            document.getElementById("middle").style.border = "none";
+            document.getElementById("middle").style.padding = "20px";
+        })
+    </script>
+</body>
+
+</html>
