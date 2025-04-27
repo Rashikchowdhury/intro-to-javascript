@@ -17,12 +17,12 @@
 // type one
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-function doubleIt(num){
-    return num * 2;
-}
+// function doubleIt(num){
+//     return num * 2;
+// }
 
-const doubled = numbers.map(doubleIt);
-console.log(doubled);
+// const doubled = numbers.map(doubleIt);
+// console.log(doubled);
 
 // type two:
 // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

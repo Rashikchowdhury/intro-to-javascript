@@ -1,14 +1,14 @@
-// filter returns all elements that match the condition as a new array.
+// ***** find returns the first element that matches a condition
 
 let friends = ["rashik", "rayhan", "jaat", "tim", "jerry"];
 
-const newList = friends.filter(frnd => frnd.length > 4);
+const newList = friends.find(frnd => frnd.length > 4);
 console.log(newList);
 
 
 
 
-// without filter:
+// without find:
 
 // function filtered(names){
 //     let arr = [];
@@ -17,7 +17,7 @@ console.log(newList);
 //             arr.push(name);
 //         }
 //     }
-//     return arr;
+//     return arr[0];
 // };
 
 // console.log(filtered(friends));
