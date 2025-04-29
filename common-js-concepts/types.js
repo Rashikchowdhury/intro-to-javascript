@@ -13,7 +13,7 @@ Data types in javascript: there ar two types :
 let number = 10;
 const name = "Rashik";
 let fail = true;
-let nul = 0;
+let nul = null;
 let roll;
 
 console.log(typeof number, typeof name, typeof fail, typeof nul, typeof roll);
