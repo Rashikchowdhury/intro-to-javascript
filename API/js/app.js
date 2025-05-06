@@ -10,6 +10,11 @@ function loadPhotos(){
     .then(data => displayPhotos(data))
 }
 
-function displayPhotos(data){
-    console.log(data);
+function displayPhotos(photos){
+    const ul = document.getElementById('image-titles');
+    for(let photo of photos){
+        let li = document.createElement('li');
+        li.innerText = photo.title;
+        ul.appendChild(li);
+    }
 }
