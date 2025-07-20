@@ -27,7 +27,8 @@ const person = {
     }
 };
 
-const {name , firm, ...remaining} = person;
+// const {name , firm, ...remaining} = person;
+const remaining = {...person};
 
 // console.log(name , firm);
 console.log(remaining);
